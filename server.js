@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware for parsing JSON request bodies
 app.use(express.json());
 
-// Enable CORS
+
 app.use(cors());
 
 // Proxy POST endpoint for authentication
